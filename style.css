@@ -1,7 +1,7 @@
 :root {
 	--dark: #292C35;
 	--light: #F1F1F1;
-	--label: #111;
+	--label: #000;
 }
 *{
     margin: 0;
