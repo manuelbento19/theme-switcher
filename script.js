@@ -2,7 +2,7 @@ var toggle = document.querySelector('.box')
 var circle = document.querySelector('.circle')
 var body = document.querySelector('body');
 
-var initalMode = localStorage.getItem('mode')
+var initalMode = localStorage.getItem('local')
 
 const backGrounds = {
     day:'#F1F1F1',
@@ -10,7 +10,7 @@ const backGrounds = {
 }
 
 function saveOnStorage(mode){
-    localStorage.setItem('mode',mode)
+    localStorage.setItem('local',mode)
 }
 
 function scroll(side,opost){
